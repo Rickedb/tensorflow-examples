@@ -7,11 +7,7 @@ from tensorflow.keras.models import Model
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-#import matplotlib.pyplot as plt
-#%matplotlib inline
 
-#import seaborn as sns
-#sns.set(style="darkgrid")
 
 #print(tf.__version__)
 cols = ['price', 'maint', 'doors', 'persons', 'lug_capacity', 'safety', 'output']
